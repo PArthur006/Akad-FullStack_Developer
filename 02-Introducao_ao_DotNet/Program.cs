@@ -1,6 +1,10 @@
 using _02_Introducao_ao_DotNet.Models;
 
-Pessoa pessoa1 = new Pessoa();
-pessoa1.Nome = "Arthur";
-pessoa1.Idade = 19;
-pessoa1.Apresentar();
+Calculadora calc = new Calculadora();
+
+calc.Somar(5, 153);
+calc.Subtrair(120, 85);
+calc.Potencia(2, 5);
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
