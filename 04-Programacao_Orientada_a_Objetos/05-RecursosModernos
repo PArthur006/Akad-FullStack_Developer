@@ -1,0 +1,32 @@
+using System;
+
+public class RecursosModernos
+{
+    // MÉTODO USANDO OPERADOR TERNÁRIO
+    public string VerificarMaioridade(int idade)
+    {
+        // É um if-else em uma única linha.
+        return idade >= 18 ? "Maior de idade" : "Menor de idade";
+    }
+
+    // MÉTODO RETORNANDO UMA TUPLA
+    public (string nome, int idade, string cidade) ObterDadosPessoa()
+    {
+        // Tuplas são ótimas para retornar múltiplos valores de um método
+        // sem precisar criar uma classe só para isso.
+        return ("Arthur", 25, "Brasília");
+    }
+
+    public void DemonstrarDesconstrucao()
+    {
+        var dados = ObterDadosPessoa();
+
+        // DESCONSTRUÇÃO DE TUPLA: "Desempacota" os valores da tupla em variáveis locais.
+        (string nome, int idade, string cidade) = dados;
+        Console.WriteLine($"{nome} tem {idade} anos e mora em {cidade}.");
+
+        // DESCONSTRUÇÃO COM DESCARTES: Usa-se '_' para ignorar valores que não interessam.
+        (string nomePessoa, _, string cidadePessoa) = ObterDadosPessoa();
+        Console.WriteLine($"{nomePessoa} mora em {cidadePessoa}.");
+    }
+}

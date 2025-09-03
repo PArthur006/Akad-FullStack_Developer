@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desafio-de-projeto-NET-Fundamentos-DIO", "Desafio-de-projeto-.NET-Fundamentos-DIO", "{AE863869-0CF0-3DA6-EDA7-CC9FFD4CE0B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioFundamentos", "Desafio-de-projeto-NET-Fundamentos-DIO\DesafioFundamentos\DesafioFundamentos.csproj", "{54970191-B3BE-7302-CCCF-7E2B46E8378D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54970191-B3BE-7302-CCCF-7E2B46E8378D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54970191-B3BE-7302-CCCF-7E2B46E8378D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54970191-B3BE-7302-CCCF-7E2B46E8378D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54970191-B3BE-7302-CCCF-7E2B46E8378D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54970191-B3BE-7302-CCCF-7E2B46E8378D} = {AE863869-0CF0-3DA6-EDA7-CC9FFD4CE0B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B652487-A47E-458B-9A48-30E99257EBCC}
+	EndGlobalSection
+EndGlobal
